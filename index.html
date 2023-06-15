@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lección 2</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="flag"></div>
+        <h1>Hablando español</h1>
+        <div class="imgH">
+        </div>
+    </header>
+    <h1 class="l">En esta unidad vamos a aprender:</h1>
+    <div id="l" class="l">
+        <div class="esp">
+            <ul>
+                <li>a dar información sobre personas (nacionalidad, edad, profesión...)</li>
+                <li>a describir personas y dar nuestra opinión sobre los demás</li>
+                <li>los numerales del 1 al 100</li>
+                <li>el presente de indicativo de los verbos regulares</li>
+                <li>los adjetivos (el género y el número)</li>
+                <li>los pronombres demonstrativos (este, esta, esto...)</li>
+            </ul>
+        </div>
+        <div class="srb">
+            <ul>
+                <li>da damo osnovne informacije o osobama (nacionalnost, starosna dob, zanimanje...)</li>
+                <li>da opišemo osobe i damo svoje mišljenje o njima</li>
+                <li>brojeve od 1 do 100</li>
+                <li>konjugacije pravilnih glagola u prezentu (sadašnjem vremenu)</li>
+                <li>prideve (rod i broj)</li>
+                <li>pokazne zamenice (ovaj, ova, ovo...)</li>
+            </ul>
+        </div>
+    </div>
+    <h2 id="vrh">Los vecinos</h2>
+    <h3>Toda esta gente vive en la calle Serrano. Son hombres y mujeres;
+        niños, jóvenes y personas mayores; casados y solteros; españoles y de
+        otros países.
+    </h3>
+    <div class="intro">
+
+
+        <img src="./images/Ayuntamiento-400.webp" alt="Valencia">
+
+        <div id="text">
+            <div>
+                <h2>Casa 1</h2>
+                <p><b>Rosana Gonzales Carillo</b></p>
+                <p>Es ama de casa.</p>
+                <p>Es española.</p>
+                <p>Hace aeróbic y estudia Historia.</p>
+                <p>Es muy sociable y muy activa.</p>
+                <br />
+                <p><b>Juan Lopéz García</b></p>
+                <p>Trabaja en un banco.</p>
+                <p>Es español.</p>
+                <p>Corre y hace fotografías.</p>
+                <p>Es muy buena persona, pero un poco serio.</p>
+                <br />
+                <p><b>Miguel Lopéz Gonzales</b></p>
+                <p>Juega al fútbol.</p>
+                <p>Es muy travieso.</p>
+                <br />
+                <p><b>Teresa Lopéz Gonzales</b></p>
+                <p>Toca la guitarra.</p>
+                <p>Es muy inteligente.</p>
+            </div>
+            <div>
+                <h2>Casa 2</h2>
+                <p><b>Flores Salas Gomez</b></p>
+                <p>Es periodista.</p>
+                <p>Es española.</p>
+                <p>Juega al tenis y estudia inglés.</p>
+                <p>Es muy trabajadora.</p>
+                <br />
+                <p><b>Jorge Camoranesi</b></p>
+                <p>Es fotógrafo.</p>
+                <p>Es argentino.</p>
+                <p>Colecciona sellos.</p>
+                <p>Es muy cariñoso.</p>
+                <br />
+                <p><b>Marcos Camoranesi Salas</b></p>
+                <p>Come mucho y duerme poco.</p>
+                <p>Es moreno.</p>
+            </div>
+            <div>
+                <h2>Casa 3</h2>
+                <p><b>Viviana Moya Pilar</b></p>
+                <p>Estudia Económicas.</p>
+                <p>Es soltera.</p>
+                <p>Juega al squash.</p>
+                <p>Es un poco pedante.</p>
+                <br />
+                <p><b>Celia Moya Pilar</b></p>
+                <p>Estudia Derecho.</p>
+                <p>Es soltera.</p>
+                <p>Toca el piano.</p>
+                <p>Es muy alegre.</p>
+            </div>
+            <div>
+                <h2>Casa 4</h2>
+                <p><b>José Luis Martinez</b></p>
+                <p>Es ingeniero.</p>
+                <p>Está separado.</p>
+                <p>Toca la batería.</p>
+                <p>Es muy callado.</p>
+                <br />
+                <p><b>Hans Schwarz</b></p>
+                <p>Es profesor de alemán.</p>
+                <p>Es soltero.</p>
+                <p>Toca el saxofón.</p>
+                <p>Es muy simpático.</p>
+                <p>Es alto.</p>
+            </div>
+            <div>
+                <h2>Casa 5</h2>
+                <p><b>Lorenzo Ortega Galvan</b></p>
+                <p>Trabaja en libreria.</p>
+                <p>Está divorciado.</p>
+                <p>Es muy timido.</p>
+                <br />
+                <p><b>Lucia Ortega Peña</b></p>
+                <p>Es estudiante.</p>
+                <p>Es un poco perezosa.</p>
+                <p>Baila flamenco.</p>
+                <p>Es muy guapa.</p>
+            </div>
+            <div>
+                <h2>Casa 6</h2>
+                <p><b>Eva Alonso Navaro</b></p>
+                <p>Trabaja en una farmacia.</p>
+                <p>Es viuda.</p>
+                <p>Pinta.</p>
+                <p>Es muy independiente.</p>
+                <br />
+                <p><b>Sara Navaro Santos</b></p>
+                <p>Está jubilada.</p>
+                <p>Es viuda.</p>
+                <p>Hace punto y cocina.</p>
+                <p>Es muy amable.</p>
+            </div>
+        </div>
+
+    </div>
+    <button><a href="#vrh">IDI NA VRH</a></button>
+    <button><a href="#dno">IDI NA DNO</a></button>
+    <h3 id="a">Ahora sabes muchas cosas de estos personajes. Busca personas
+        con estas características y escribe sus nombres.
+    </h3>
+    <div id="app1"></div>
+    <button><a href="#vrh">IDI NA VRH</a></button>
+    <button><a href="#dno">IDI NA DNO</a></button>
+    <h1 id="b">Un poco de gramática...</h1>
+    <h2>Verbos regulares - presente</h2>
+    <div class="gram" id="gram1">
+        <div>
+            <h4>-AR</h4>
+            <table>
+                <tr class="heading">
+                    <th>Hablar</th>
+                    <th>Govoriti</th>
+                </tr>
+                <tr class="even">
+
+                    <td>yo </td>
+                    <td>habl<span class="red">o</span></td>
+                </tr>
+                <tr>
+                    <td>tú </td>
+                    <td>habl<span class="red">as</span></td>
+                </tr>
+                <tr class="even">
+                    <td>él, ella, usted </td>
+                    <td>habl<span class="red">a</span></td>
+                </tr>
+                <tr>
+                    <td>nosotros </td>
+                    <td>habl<span class="red">amos</span></td>
+                </tr>
+                <tr class="even">
+                    <td>vosotros </td>
+                    <td>habl<span class="red">áis</span></td>
+                </tr>
+                <tr>
+                    <td>ellos, ellas</td>
+                    <td>habl<span class="red">an</span></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h4>-ER</h4>
+            <table>
+                <tr class="heading">
+                    <th>Comer</th>
+                    <th>Jesti</th>
+                </tr>
+                <tr class="even">
+
+                    <td>yo </td>
+                    <td>com<span class="red">o</span></td>
+                </tr>
+                <tr>
+                    <td>tú </td>
+                    <td>com<span class="red">es</span></td>
+                </tr>
+                <tr class="even">
+                    <td>él, ella, usted </td>
+                    <td>com<span class="red">e</span></td>
+                </tr>
+                <tr>
+                    <td>nosotros </td>
+                    <td>com<span class="red">emos</span></td>
+                </tr>
+                <tr class="even">
+                    <td>vosotros </td>
+                    <td>com<span class="red">éis</span></td>
+                </tr>
+                <tr>
+                    <td>ellos, ellas</td>
+                    <td>com<span class="red">en</span></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h4>-IR</h4>
+            <table>
+                <tr class="heading">
+                    <th>Vivir</th>
+                    <th>Živeti</th>
+                </tr>
+                <tr class="even">
+
+                    <td>yo </td>
+                    <td>viv<span class="red">o</span></td>
+                </tr>
+                <tr>
+                    <td>tú </td>
+                    <td>viv<span class="red">es</span></td>
+                </tr>
+                <tr class="even">
+                    <td>él, ella, usted </td>
+                    <td>viv<span class="red">e</span></td>
+                </tr>
+                <tr>
+                    <td>nosotros </td>
+                    <td>viv<span class="red">imos</span></td>
+                </tr>
+                <tr class="even">
+                    <td>vosotros </td>
+                    <td>viv<span class="red">ís</span></td>
+                </tr>
+                <tr>
+                    <td>ellos, ellas</td>
+                    <td>viv<span class="red">en</span></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h4>Otros verbos en -AR</h4>
+            <table>
+                <tr class="heading">
+                    <th>Español</th>
+                    <th>Serbio</th>
+                </tr>
+                <tr class="even">
+
+                    <td>trabajar</td>
+                    <td>raditi</td>
+                </tr>
+                <tr>
+                    <td>cocinar</td>
+                    <td>kuvati</td>
+                </tr>
+                <tr class="even">
+                    <td>tocar</td>
+                    <td>svirati</td>
+                </tr>
+                <tr>
+                    <td>bailar</td>
+                    <td>plesati</td>
+                </tr>
+                <tr class="even">
+                    <td>viajar</td>
+                    <td>putovati</td>
+                </tr>
+                <tr>
+                    <td>jugar (juego)</td>
+                    <td>igrati (nepravilan)</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h4>-ER</h4>
+            <table>
+                <tr class="heading">
+                    <th>Español</th>
+                    <th>Serbio</th>
+                </tr>
+                <tr class="even">
+
+                    <td>leer</td>
+                    <td>čitati</td>
+                </tr>
+                <tr>
+                    <td>aprender</td>
+                    <td>naučiti</td>
+                </tr>
+                <tr class="even">
+                    <td>beber</td>
+                    <td>piti</td>
+                </tr>
+                <tr>
+                    <td>correr</td>
+                    <td>trčati</td>
+                </tr>
+                <tr class="even">
+                    <td>depender</td>
+                    <td>zavisiti</td>
+                </tr>
+                <tr>
+                    <td>tener (tengo)</td>
+                    <td>imati (nepravilan)</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h4>-IR</h4>
+            <table>
+                <tr class="heading">
+                    <th>Español</th>
+                    <th>Serbio</th>
+                </tr>
+                <tr class="even">
+
+                    <td>escribir</td>
+                    <td>pisati</td>
+                </tr>
+                <tr>
+                    <td>recibir</td>
+                    <td>primiti (dobiti nešto)</td>
+                </tr>
+                <tr class="even">
+                    <td>reunir</td>
+                    <td>sastati se (okupiti se)</td>
+                </tr>
+                <tr>
+                    <td>sufrir</td>
+                    <td>patiti</td>
+                </tr>
+                <tr class="even">
+                    <td>unir</td>
+                    <td>spojiti</td>
+                </tr>
+                <tr>
+                    <td>salir (salgo)</td>
+                    <td>izaći (nepravilan)</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <button><a href="#vrh">IDI NA VRH</a></button>
+    <button><a href="#a">PRETHODNA SEKCIJA</a></button>
+    <h3 id="c">Aquí hay algunas expresiones para definirte y describirte.
+        Complétalas con el verbo adecuado.
+    </h3>
+    <div id="app2"></div>
+    <h3>Completa estas frases con el verbo correspondente:</h3>
+    <div id="app3"></div>
+    <button><a href="#vrh">IDI NA VRH</a></button>
+    <button><a href="#b">PRETHODNA SEKCIJA</a></button>
+    <button><a href="#dno">IDI NA DNO</a></button>
+    <div class="ej" id="ej">
+        <h2>Aquí tienes algunas palabras que te pueden ayudar a presentarte:</h2>
+        <p>Nacionalidad: español/a, argentino/a, francés/a, alemán/a, serbio/a, croata.</p>
+        <br />
+        <p>Aspecto físico: moreno/a, rubio/a, alto/a, bajo/a, guapo/a.</p>
+        <br />
+        <p>Carácter: agradable, amable, timido/a, simpático/a, trabajador/a, alegre, inteligente.</p>
+        <br />
+        <p>Profesión: un/una; profesor/a, vendedor/a, periodista, artista, cantante, estudiante.</p>
+        <br />
+        <p>Estado civil: soltero/a, casado/a, divorciado/a, separado/a, viudo/a. </p>
+        <br />
+        <p>Aficiones: jugar al fútbol (<span class="red">a + el </span>= al</td>), tocar la guitarra, hacer deporte,
+            salir de la noche.</p>
+        <div class="gram2">
+            <div>
+                <h4>MASCULINO</h4>
+                <table>
+                    <tr class="heading">
+                        <td>Singular </td>
+                        <td>Plural </td>
+                    </tr>
+                    <tr class="even">
+                        <td>rubi<span class="red">o</span></td>
+                        <td>rubi<span class="red">os</span></td>
+                    </tr>
+                    <tr>
+                        <td>peliroj<span class="red">o</span></td>
+                        <td>peliroj<span class="red">os</span></td>
+                    </tr>
+                    <tr class="even">
+                        <td>trabajador</td>
+                        <td>trabajador<span class="red">es</span></td>
+                    </tr>
+                    <tr>
+                        <td>fácil</td>
+                        <td>fácil<span class="red">es</span></td>
+                    </tr>
+                    <tr class="even">
+                        <td>feliz</td>
+                        <td>feli<span class="red">ces</span></td>
+                    </tr>
+                    <tr>
+                        <td>inteligente</td>
+                        <td>inteligente<span class="red">s</span></td>
+                    </tr>
+                    <tr class="even">
+                        <td>alemán</td>
+                        <td>aleman<span class="red">es</span></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <h4>FEMENINO</h4>
+                <table>
+                    <tr class="heading">
+                        <td>Singular </td>
+                        <td>Plural </td>
+                    </tr>
+                    <tr class="even">
+                        <td>rubi<span class="red">a</span></td>
+                        <td>rubi<span class="red">as</span></td>
+                    </tr>
+                    <tr>
+                        <td>peliroj<span class="red">a</span></td>
+                        <td>peliroj<span class="red">as</span></td>
+                    </tr>
+                    <tr class="even">
+                        <td>trabajador<span class="red">a</span></td>
+                        <td>trabajador<span class="red">as</span></td>
+                    </tr>
+                    <tr>
+                        <td>fácil</td>
+                        <td>fácil<span class="red">es</span></td>
+                    </tr>
+                    <tr class="even">
+                        <td>feliz</td>
+                        <td>feli<span class="red">ces</span></td>
+                    </tr>
+                    <tr>
+                        <td>inteligente</td>
+                        <td>inteligente<span class="red">s</span></td>
+                    </tr>
+                    <tr class="even">
+                        <td>aleman<span class="red">a</span></td>
+                        <td>aleman<span class="red">as</span></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <button><a href="#vrh">IDI NA VRH</a></button>
+        <button><a href="#c">PRETHODNA SEKCIJA</a></button>
+        <button><a href="#dno">IDI NA DNO</a></button>
+        <h2 id="d">Relaciones familiares</h2>
+        <p>mi padre, mi madre -------------- mis padres</p>
+        <p>mi hermano, mi hermana ------- mis hermanos, mis hermanas</p>
+        <p>mi hijo, mi hija ------------- mis hijos/as</p>
+        <p>mi abuelo, mi abuela --------- mis abuelos</p>
+        <br />
+        <p>El hijo de mi hijo es mi nieto.</p>
+        <p>El hermano de mi padre es mi tio.</p>
+        <p>La hermana de mi madre es mi tia.</p>
+        <p>El hijo de mi tio es mi primo.</p>
+        <p>La hija de mi tia es mi prima.</p>
+        <p>La hermana de mi mujer es mi cuñada.</p>
+        <p>El hermano de mi marido es mi cuñado.</p>
+        <div class="gram2">
+            <div>
+
+                <table>
+                    <tr class="heading">
+                        <td>Singular </td>
+                        <td>Plural </td>
+                    </tr>
+                    <tr>
+                        <td>mi</td>
+                        <td>mis</td>
+                    </tr>
+                    <tr class="even">
+                        <td>tu</td>
+                        <td>tus</td>
+                    </tr>
+                    <tr>
+                        <td>su</td>
+                        <td>sus</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div>
+
+                <table>
+                    <tr class="heading">
+                        <td>Singular </td>
+                        <td>Plural </td>
+                    </tr>
+                    <tr>
+                        <td>nuestro/a</td>
+                        <td>nuestros/as</td>
+                    </tr>
+                    <tr class="even">
+                        <td>vuestro/a</td>
+                        <td>vuestros/as</td>
+                    </tr>
+                    <tr>
+                        <td>su</td>
+                        <td>sus</td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+        <h2>Otras relaciones.</h2>
+        <p>¿Quien es?</p>
+        <br />
+        <p>Es <span class="red">mi</span> amigo Pedro.</p>
+        <p>Es un amigo <span class="red">mío</span>.</p>
+        <br />
+        <p>Es <span class="red">mi</span> compañera Eva.</p>
+        <p>Es una compañera <span class="red">mía</span>.</p>
+    </div>
+
+    <div id="app4"></div>
+    <button><a href="#vrh">IDI NA VRH</a></button>
+    <button><a href="#ej">PRETHODNA SEKCIJA</a></button>
+    <h2>LOS NÚMEROS DEL 0 AL 100</h2>
+    <div class="ej" id="numeros">
+        <div>
+            <p><span class="blue">0</span> ------ cero</p>
+            <p><span class="blue">1</span> ------ uno</p>
+            <p><span class="blue">2</span> ------ dos</p>
+            <p><span class="blue">3</span> ------ tres</p>
+            <p><span class="blue">4</span> ------ cuatro</p>
+            <p><span class="blue">5</span> ------ cinco</p>
+            <p><span class="blue">6</span> ------ seis</p>
+            <p><span class="blue">7</span> ------ siete</p>
+            <p><span class="blue">8</span> ------ ocho</p>
+            <p><span class="blue">9</span> ------ nueve</p>
+        </div>
+        <div>
+            <p><span class="blue">10</span> ------ diez</p>
+            <p><span class="blue">11</span> ------ once</p>
+            <p><span class="blue">12</span> ------ doce</p>
+            <p><span class="blue">13</span> ------ trece</p>
+            <p><span class="blue">14</span> ------ catorce</p>
+            <p><span class="blue">15</span> ------ quince</p>
+            <p><span class="blue">16</span> ------ dieciséis</p>
+            <p><span class="blue">17</span> ------ diecisiete</p>
+            <p><span class="blue">18</span> ------ dieciocho</p>
+            <p><span class="blue">19</span> ------ diecinueve</p>
+
+        </div>
+        <div>
+            <p><span class="blue">20</span> ------ veinte</p>
+            <p><span class="blue">21</span> ------ <span class="red">veinti</span>uno</p>
+            <p><span class="blue">22</span> ------ <span class="red">veinti</span>dós</p>
+            <p><span class="blue">23</span> ------ <span class="red">veinti</span>trés</p>
+            <p><span class="blue">24</span> ------ <span class="red">veinti</span>cuatro</p>
+            <p><span class="blue">25</span> ------ <span class="red">veinti</span>...</p>
+            <p><span class="blue">30 </span> ------ treinta </p>
+            <p><span class="blue">31 </span> ------ treinta <span class="red"> y </span> uno </p>
+            <p><span class="blue">32</span> ------ treinta <span class="red"> y </span>dos</p>
+            <p><span class="blue">33</span> ------ treinta <span class="red"> y </span>...</p>
+        </div>
+        <div>
+            <p><span class="blue">40</span> ------ cuarenta </p>
+            <p><span class="blue">41</span> ------ cuarenta <span class="red"> y </span> uno </p>
+            <p><span class="blue">42</span> ------ cuarenta <span class="red"> y </span>dos</p>
+            <p><span class="blue">43</span> ------ cuarenta <span class="red"> y </span>tres</p>
+            <p><span class="blue">44</span> ------ cuarenta <span class="red"> y </span>...</p>
+            <p><span class="blue">50</span> ------ cincuenta </p>
+            <p><span class="blue">51</span> ------ cincuenta <span class="red"> y </span> uno </p>
+            <p><span class="blue">52</span> ------ cincuenta <span class="red"> y </span>dos</p>
+            </p>
+            <p><span class="blue">53</span> ------ cincuenta <span class="red"> y </span>tres</p>
+            <p><span class="blue">54</span> ------ cincuenta <span class="red"> y </span>...</p>
+        </div>
+        <div>
+            <p><span class="blue">60</span> ------ sesenta </p>
+            <p><span class="blue">61</span> ------ sesenta <span class="red"> y </span> uno </p>
+            <p><span class="blue">70</span> ------ setenta </p>
+            <p><span class="blue">71</span> ------ setenta <span class="red"> y </span> uno </p>
+            <p><span class="blue">80</span> ------ ochenta </p>
+            <p><span class="blue">81</span> ------ ochenta <span class="red"> y </span> uno </p>
+            <p><span class="blue">90</span> ------ noventa </p>
+            <p><span class="blue">91</span> ------ noventa <span class="red"> y </span> uno </p>
+            <p><span class="blue">100</span> ------ cien </p>
+            <p><span class="blue">101</span> ------ ciento <span class="red"> uno </span></p>
+        </div>
+    </div>
+    <h4>Comleta los rectangulos vacios con números adecuados</h4>
+    <div id="app5"></div>
+    <button><a href="#vrh">IDI NA VRH</a></button>
+    <button><a href="#d">PRETHODNA SEKCIJA</a></button>
+    <h2 id="dem">Los demonstrativos: ESTE, ESTA, ESTOS, ESTAS, ESTO</h2>
+    <div class="gram2" id="gram3">
+        <div>
+            <h4>Junto al nombre</h4>
+            <table>
+                <tr class="heading">
+                    <td>MASCULINO </td>
+                    <td>FEMENINO </td>
+                </tr>
+                <tr class="even">
+                    <td><span class="red">Este </span> bolígrafo</td>
+                    <td><span class="red">Esta </span> casa</td>
+                </tr>
+                <tr>
+                    <td><span class="red">Estos </span> bolígrafos</td>
+                    <td><span class="red">Estas </span> casas</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h4>Separado del nombre</h4>
+            <table>
+                <tr class="heading">
+                    <td>MASCULINO</td>
+                    <td>FEMENINO</td>
+                <tr class="even">
+                    <td><span class="red">Este </span> es mi bolígrafo</td>
+                    <td><span class="red">Esta </span> es mi casa</td>
+                </tr>
+                <tr>
+                    <td><span class="red">Estos </span> son mis bolígrafos</td>
+                    <td><span class="red">Estas </span> son mis casas</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="ej">
+        <h4><span class="red">Atención:</span></h4>
+        <br />
+        <p><span class="red">Esto </span> es Valencia</p>
+        <p><span class="red">Esto </span> es un bolígrafo</p>
+        <p><span class="red">Esto </span> es una foto</p>
+        <br />
+        <p>
+        <p><span class="redw">Esto es Juan Carlos</span> </p>
+        <p>
+        <p><span class="greenr">Este es Juan Carlos</span> </p>
+    </div>
+    <div id="app6"></div>
+    <button><a href="#vrh">IDI NA VRH</a></button>
+    <button><a href="#numeros">PRETHODNA SEKCIJA</a></button>
+    <div id="audio">
+        <audio controls>
+            <source src="./images/AudioEsp.m4a" type="audio/mpeg">
+        </audio>
+    </div>
+    <br />
+    <div class="audio1">
+        <div>
+        <span><b>Bojan tiene 37 años.</span>
+        <select name="vero" id="sel1">
+            <option value="Verdadero">Verdadero</option>
+            <option value="Falso">Falso</option>
+        </select>
+    </div>
+    <div>
+        <span><b>Es bajo y rubio.</span>
+        <select name="vero" id="sel2">
+            <option value="Verdadero">Verdadero</option>
+            <option value="Falso">Falso</option>
+        </select>
+    </div>
+    <div>
+        <span><b>Trabaja desde su casa.</span>
+        <select name="vero" id="sel3">
+            <option value="Verdadero">Verdadero</option>
+            <option value="Falso">Falso</option>
+        </select>
+    </div>
+    <div>
+        <span><b>Habla inglés muy bien.</span>
+        <select name="vero" id="sel4">
+            <option value="Verdadero">Verdadero</option>
+            <option value="Falso">Falso</option>
+        </select>
+    </div>
+    <div>
+        <span><b>Vive en Francia.</span>
+        <select name="vero" id="sel5">
+            <option value="Verdadero">Verdadero</option>
+            <option value="Falso">Falso</option>
+        </select>
+    </div>
+    <div>
+        <span><b>Toca un instrumento musical.</span>
+        <select name="vero" id="sel6">
+            <option value="Verdadero">Verdadero</option>
+            <option value="Falso">Falso</option>
+        </select>
+    </div>
+    <button id="auBtn">Averiguar</button>
+    <p id="aup">Resultado: </p>
+    </div>
+    <button><a href="#vrh">IDI NA VRH</a></button>
+    <button><a href="#dem">PRETHODNA SEKCIJA</a></button>
+    <h2>Las expresiones y palabras nuevas</h2>
+    <div class="gram2">
+        <div>
+            <h4 id="ex">LAS EXPRESIONES</h4>
+            <table>
+                <tr class="heading">
+                    <td>Español</td>
+                    <td>Serbio</td>
+                <tr class="even">
+                    <td>Ama de casa</td>
+                    <td>Domaćica</td>
+                </tr>
+                <tr>
+                    <td>¿<span class="red">Qué</span> haces aquí?</td>
+                    <td>Šta radiš ovde?</td>
+                </tr>
+                <tr class="even">
+                    <td>¿<span class="red">Porqué</span> aprendes español?</td>
+                    <td>Zašto učiš španski?</td>
+                </tr>
+                <tr>
+                    <td><span class="red">Porque</span> me gusta</td>
+                    <td>Zato što mi se sviđa</td>
+                </tr>
+                <tr class="even">
+                    <td>Me gustan las lenguas y <span class="red">por eso</span> aprendo español</td>
+                    <td>Sviđaju mi se jezici i zbog toga učim španski</td>
+                </tr>
+                <tr>
+                    <td>¿<span class="red">Cuantos</span> años tienes?</td>
+                    <td>Koliko godina imaš?</td>
+                </tr>
+                <tr class="even">
+                    <td><span class="red">Tengo</span> 24 años</td>
+                    <td>Imam 24 godine</td>
+                </tr>
+                <tr>
+                    <td>¿<span class="red">Cuando</span> empieza la clase?</td>
+                    <td>Kada počinje čas?</td>
+                </tr>
+                <tr class="even">
+                    <td>Toco <span class="red">la</span> batería</td>
+                    <td>Sviram bubnjeve</td>
+                </tr>
+                <tr>
+                    <td>Juego <span class="red">al</span> fútbol</td>
+                    <td>Igram fudbal</td>
+                </tr>
+                <tr class="even">
+                    <td>Hago deporte</td>
+                    <td>Vežbam, bavim se sportom (bukvalni prev: činim sport)</td>
+                </tr>
+                <tr>
+                    <td>¿<span class="red">Dónde</span> vives?</td>
+                    <td>Gde živiš?</td>
+                </tr>
+                <tr class="even">
+                    <td>¿<span class="red">Quien</span> es?</td>
+                    <td>Ko je to?</td>
+                </tr>
+                <tr>
+                    <td>Es mi vecino Dani</td>
+                    <td>To je moj komšija Dani</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h4>LAS PALABRAS</h4>
+            <table>
+                <tr class="heading">
+                    <td>Español</td>
+                    <td>Serbio</td>
+                <tr>
+                    <td><span class="blue">Nombres</span></td>
+                    <td><span class="blue">Imenice</span></td>
+                </tr>
+                <tr class="even">
+                    <td>la gente</td>
+                    <td>ljudi (uvek u jednini u esp)</td>
+                </tr>
+                <tr>
+                    <td>una/la calle</td>
+                    <td>ulica</td>
+                </tr>
+                <tr class="even">
+                    <td>la mujer</td>
+                    <td>žena</td>
+                </tr>
+                <tr>
+                    <td>un banco</td>
+                    <td>banka</td>
+                </tr>
+                <tr class="even">
+                    <td>el periódico</td>
+                    <td>novine, štampa</td>
+                </tr>
+                <tr>
+                    <td>un/una periodista</td>
+                    <td>novinar / novinarka</td>
+                </tr>
+                <tr class="even">
+                    <td>el idioma / la lengua</td>
+                    <td>jezik</td>
+                </tr>
+                <tr>
+                    <td>la esposa</td>
+                    <td>supruga</td>
+                </tr>
+                <tr class="even">
+                    <td>el marido</td>
+                    <td>suprug</td>
+                </tr>
+                <tr>
+                    <td>un bolígrafo</td>
+                    <td>hemijska olovka</td>
+                </tr>
+                <tr class="even">
+                    <td>la comida</td>
+                    <td>hrana</td>
+                </tr>
+                <tr>
+                    <td><span class="greenr">Ajdetivos</span></td>
+                    <td><span class="greenr">Pridevi</span></td>
+                </tr>
+                <tr class="even">
+                    <td>jóven</td>
+                    <td>mlad/a</td>
+                </tr>
+                <tr>
+                    <td>mayor</td>
+                    <td>stariji/a</td>
+                </tr>
+                <tr class="even">
+                    <td>menor</td>
+                    <td>mlađi/a</td>
+                </tr>
+                <tr>
+                    <td>soltero/a</td>
+                    <td>sam/a</td>
+                </tr>
+                <tr class="even">
+                    <td>casado/a</td>
+                    <td>oženjen / udata</td>
+                </tr>
+                <tr>
+                    <td>divorciado/a</td>
+                    <td>razveden/a</td>
+                </tr>
+                <tr class="even">
+                    <td>separado/a</td>
+                    <td>razveden/a (bukvalni prev: odvojen)</td>
+                </tr>
+                <tr>
+                    <td>viudo/a</td>
+                    <td>udovac / udovica</td>
+                </tr>
+                <tr class="even">
+                    <td>jubilado/a</td>
+                    <td>penzionisan/a</td>
+                </tr>
+                <tr>
+                    <td>serio/a</td>
+                    <td>ozbiljan / ozbiljna</td>
+                </tr>
+                <tr class="even">
+                    <td>travieso/a</td>
+                    <td>nestašan / nestašna</td>
+                </tr>
+                <tr>
+                    <td>trabajador/a</td>
+                    <td>vredan - radan / radna</td>
+                </tr>
+                <tr class="even">
+                    <td>cariñoso/a</td>
+                    <td>sladak (simpatičan)</td>
+                </tr>
+                <tr>
+                    <td>moreno/a</td>
+                    <td>crn/a, tamnoput/a</td>
+                </tr>
+                <tr class="even">
+                    <td>rubio/a</td>
+                    <td>plavokos/a</td>
+                </tr>
+                <tr>
+                    <td>pelirojo/a</td>
+                    <td>crvenokos/a</td>
+                </tr>
+                <tr class="even">
+                    <td>alto/a</td>
+                    <td>visok/a</td>
+                </tr>
+                <tr>
+                    <td>bajo/a</td>
+                    <td>nizak / niska</td>
+                </tr>
+                <tr class="even">
+                    <td>alegre</td>
+                    <td>veseo / vesela</td>
+                </tr>
+                <tr>
+                    <td>callado/a</td>
+                    <td>ćutljiv/a</td>
+                </tr>
+                <tr class="even">
+                    <td>timido/a</td>
+                    <td>stidljiv/a</td>
+                </tr>
+                <tr>
+                    <td>guapo/a</td>
+                    <td>lep/a</td>
+                </tr>
+                <tr class="even">
+                    <td>perezoso/a</td>
+                    <td>lenj/a</td>
+                </tr>
+                <tr>
+                    <td>independiente</td>
+                    <td>nezavisan / nezavisna</td>
+                </tr>
+                <tr class="even">
+                    <td>amable</td>
+                    <td>ljubazan / ljubazna</td>
+                </tr>
+                <tr>
+                    <td>agradable</td>
+                    <td>prijatan / prijatna</td>
+                </tr>
+                <tr class="even">
+                    <td>fácil</td>
+                    <td>lak/a</td>
+                </tr>
+                <tr>
+                    <td>dificil</td>
+                    <td>težak / teška</td>
+                </tr>
+                <tr class="even">
+                    <td>feliz</td>
+                    <td>srećan / srećna</td>
+                </tr>
+                <tr>
+                    <td><span class="red">Verbos</span></td>
+                    <td><span class="red">Glagoli</span></td>
+                </tr>
+                <tr class="even">
+                    <td>comprar (compro)</td>
+                    <td>kupiti (kupujem)</td>
+                </tr>
+                <tr>
+                    <td>correr (corro)</td>
+                    <td>trčati</td>
+                </tr>
+                <tr class="even">
+                    <td>hacer (hago)</td>
+                    <td>činiti, raditi</td>
+                </tr>
+                <tr>
+                    <td>pintar (pinto)</td>
+                    <td>slikati</td>
+                </tr>
+                <tr class="even">
+                    <td>estudiar (estudio)</td>
+                    <td>učiti</td>
+                </tr>
+                <tr>
+                    <td>coleccionar (colecciono)</td>
+                    <td>sakupljati</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <button><a href="#vrh">IDI NA VRH</a></button>
+    <button><a href="#ex">VRH OVE SEKCIJE</a></button>
+    <button><a href="#audio">PRETHODNA SEKCIJA</a></button>
+    <footer id="dno">
+        <p>&copy; Hablando español</p>
+        <p>email: bojan.giuliano@gmail.com</p>
+    </footer>
+    <script src="./js/app.bundle.js"></script>
+</body>
+
+</html>
